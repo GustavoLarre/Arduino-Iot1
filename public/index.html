@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle IoT - Johnny Five</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Controle de LEDs IoT</h1>
+
+        <p class="subtitulo">
+            Controle os LEDs do Arduino diretamente pelo navegador.
+        </p>
+
+        <div class="led-card">
+
+            <h2>LED Vermelho</h2>
+
+            <button class="btn vermelho"
+                onclick="ligar('red')">
+                Ligar
+            </button>
+
+            <button class="btn desligar"
+                onclick="desligar('red')">
+                Desligar
+            </button>
+
+        </div>
+
+        <div class="led-card">
+
+            <h2>LED Amarelo</h2>
+
+            <button class="btn amarelo"
+                onclick="ligar('yellow')">
+                Ligar
+            </button>
+
+            <button class="btn desligar"
+                onclick="desligar('yellow')">
+                Desligar
+            </button>
+
+        </div>
+
+        <div class="led-card">
+
+            <h2>LED Verde</h2>
+
+            <button class="btn verde"
+                onclick="ligar('green')">
+                Ligar
+            </button>
+
+            <button class="btn desligar"
+                onclick="desligar('green')">
+                Desligar
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
